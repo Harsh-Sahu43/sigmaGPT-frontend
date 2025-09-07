@@ -2,7 +2,7 @@ import "./Sidebar.css";
 import { useContext, useEffect } from "react";
 import { MyContext } from "./MyContext.jsx";
 import {v1 as uuidv1} from "uuid";
-const API_URL = "https://ec2-13-211-62-150.ap-southeast-2.compute.amazonaws.com:8443/api";
+const API_URL = "https://sigmagpt-backend-4k7r.onrender.com/api";
 
 
 function Sidebar() {

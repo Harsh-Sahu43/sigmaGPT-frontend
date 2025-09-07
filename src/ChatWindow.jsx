@@ -3,7 +3,7 @@ import Chat from "./Chat.jsx";
 import { MyContext } from "./MyContext.jsx";
 import { useContext, useState, useEffect } from "react";
 import {ScaleLoader} from "react-spinners";
-const API_URL = "https://ec2-13-211-62-150.ap-southeast-2.compute.amazonaws.com:8443/api";
+const API_URL = "https://sigmagpt-backend-4k7r.onrender.com/api";
 
 
 function ChatWindow() {
